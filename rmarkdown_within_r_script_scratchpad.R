@@ -8,7 +8,12 @@
 #'      highlight: zenburn
 #' ---
 
+#' good rmarkdown references
 #' http://brooksandrew.github.io/simpleblog/articles/render-reports-directly-from-R-scripts/
+#' https://bookdown.org/yihui/rmarkdown/r-code.html
+#' https://rmarkdown.rstudio.com/articles_report_from_r_script.html
+#' https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf
+#' http://kbroman.org/knitr_knutshell/pages/Rmarkdown.html
 
 #' ## Generate document body from comments
 #' All the features from markdown and markdown supported within .Rmd documents, I was able to
