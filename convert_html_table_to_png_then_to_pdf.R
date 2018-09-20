@@ -23,7 +23,9 @@ render(input = r_script_name, output_format = "html_document",
        output_file = html_name)
 
 # get a png from the html file with webshot
-webshot(html_name, zoom = 2, delay = .5, file = "regulartable.png", 
+# note that png and pdf will have higher resolution the higher the zoom
+# 1 vs 5 is very noticeable; 10 vs 20 is less so until you enlarge pdf to see fine details
+webshot(html_name, zoom = 20, delay = .5, file = "regulartable.png", 
         selector = "table")
 
 # read png into magick
